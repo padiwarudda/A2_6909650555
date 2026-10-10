@@ -1,11 +1,105 @@
+:root {
+  --main-color: #4a6fa5;
+  --light-color: #eef3fa;
+  --dark-color: #1f2d3d;
+}
+
 body {
-  background-color: black;
+  font-family: 'Sarabun', sans-serif;
+  color: #333;
+  line-height: 1.7;
 }
 
-h1, h2, h3, h4, h5 {
-  color: #f371bd;
+
+.site-header {
+  background-color: var(--dark-color);
+}
+.site-header .brand,
+.site-header .nav-link {
+  color: #fff;
+}
+.site-header .nav-link:hover {
+  color: #a8c5f0;
 }
 
-header {
-  border-bottom: 3px solid #f371bd;
+
+.about-section {
+  background-color: var(--light-color);
+}
+.profile-img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;   
+  border: 5px solid #fff;
+}
+.accent-text {
+  color: var(--main-color);
+  letter-spacing: 2px;
+}
+
+
+.tag {
+  background-color: var(--main-color);
+  font-weight: 400;
+  padding: 6px 12px;
+}
+
+
+.portfolio-card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+.portfolio-card:hover {
+  transform: translateY(-5px);
+}
+.portfolio-card .card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+
+.reflection dt {
+  color: var(--main-color);
+}
+.reflection dd {
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border-left: 3px solid var(--light-color);
+}
+
+
+.btn-custom {
+  background-color: var(--main-color);
+  color: #fff;
+}
+.btn-custom:hover {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+.btn-outline-custom {
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+}
+.btn-outline-custom:hover {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+
+.site-footer {
+  background-color: var(--dark-color);
+  color: #ccc;
+}
+
+
+@media (max-width: 576px) {
+  .profile-img {
+    width: 160px;
+    height: 160px;
+  }
+  h1 {
+    font-size: 1.6rem;
+  }
 }

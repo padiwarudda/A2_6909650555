@@ -1,19 +1,158 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<html lang="th">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Frame's Learning Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+  <title>Learning Portfolio | ปดิวรัดา ฝ่ายฉิมพลี</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="text-center py-5">
-    <h1>PADIWARUDDA FAICHIMPLEE</h1>
-    <h2>COMPUTER SCIENCE STUDENT</h2>
+
+  <header class="site-header sticky-top py-3">
+    <nav class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+      <a href="#about" class="brand text-decoration-none fw-bold fs-5">My Learning Portfolio</a>
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">My Portfolio</a></li>
+
+      </ul>
+    </nav>
   </header>
 
-  <main class="container">
+  <main>
+
+    <section id="about" class="about-section py-5">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          
+          <div class="col-12 col-md-4 text-center">
+            
+          </div>
+          <img src="media/profile.jpg" alt="รูปโปรไฟล์ของ ปดิวรัดา ฝ่ายฉิมพลี" class="img-fluid rounded-circle profile-img shadow">
+          
+          <div class="col-12 col-md-8 text-center text-md-start">
+            <p class="text-uppercase small fw-semibold mb-1 accent-text">About Me</p>
+            <h1 class="fw-bold mb-3">ปดิวรัดา ฝ่ายฉิมพลี</h1>
+            <p class="mb-1"><strong>รหัสนักศึกษา:</strong>6909650555</p>
+            <p class="mb-3"><strong>หลักสูตร:</strong> คณะวิทยาศาสตร์และเทคโนโลยี สาขาวิทยาการคอมพิวเตอร์</p>
+            <p>ชอบการเรียนรู้ในสิ่งใหม่ๆ และกำลังเรียนรู้เกี่ยวกับการพัฒนาเว็บไซต์และการออกแบบผู้ใช้</p>
+
+            <h2 class="h6 fw-bold mt-4">สิ่งที่ชอบ</h2>
+            <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-md-start">
+              <span class="badge tag">อ่านหนังสือ</span>
+              <span class="badge tag">ฟังเพลง</span>
+              <span class="badge tag">ดูหนัง</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="portfolio" class="py-5">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-2">My Portfolio</h2>
+        <p class="text-center text-muted mb-5">ผลงานและประสบการณ์การเรียนรู้</p>
+
+
+        <div class="row g-4">
+
+          
+          <div class="col-12 col-lg-6">
+            <article class="card h-100 portfolio-card shadow-sm">
+              <img src="media/A1.jpg" class="card-img-top" alt="ภาพหน้าเว็บไซต์ A1">
+              <div class="card-body">
+                <h3 class="card-title h5 fw-bold">CS100 A1: My First Learning Portfolio</h3>
+                <ul class="list-unstyled small text-muted mb-3">
+                  <li><strong>Type:</strong> Course Assignment</li>
+                  <li><strong>Date:</strong> 30 ส.ค. 2569</li>
+                  <li><strong>Role:</strong> Individual Developer</li>
+                </ul>
+
+                <p><strong>Description:</strong> งานนี้คือการพัฒนาเว็บไซต์ส่วนตัว โดยใช้ HTML และ CSS ให้มีความน่าสนใจในการทำงานมากขึ้น</p>
+
+                <p class="mb-1"><strong>Skills:</strong></p>
+                <div class="d-flex flex-wrap gap-2 mb-3">
+                  <span class="badge tag">HTML</span>
+                  <span class="badge tag">CSS</span>
+                  <span class="badge tag">Semantic HTML</span>
+                </div>
+
+                <h4 class="h6 fw-bold">Reflection</h4>
+                <dl class="reflection">
+                  <dt>What I did</dt>
+                  <dd>สร้างเว็บไซต์ส่วนตัวแนะนำตัวเอง และมีการตกแต่งให้มีความน่าสนใจ</dd>
+                  <dt>What I learned</dt>
+                  <dd>ได้เรียนรู้และฝึกการใช้ HTML และ CSS ให้คล่องขึ้นในการสร้างเว็บ</dd>
+                  <dt>Challenge</dt>
+                  <dd>ยังออกแบบไม่ค่อยคล่อง วางรูปแบบงานไม่ค่อยถูกต้องเลยต้องเรียนรู้เพิ่มเติมและฝึกใช้บ่อยๆให้คล่องขึ้่น</dd>
+                  <dt>Next step</dt>
+                  <dd>อยากตกแต่งเว็บไซต์ให้สวยงามและมีลูกเล่นให้มากขึ้น</dd>
+                </dl>
+              </div>
+              <div class="card-footer bg-transparent border-0 pb-3">
+                <p class="small fw-bold mb-2">Evidence:</p>
+                <div class="d-flex flex-wrap gap-2">
+                  <a href="media/A1.jpg" class="btn btn-sm btn-custom" target="_blank">Assignment 1</a>
+                  <a href="media/A1-1.jpg" class="btn btn-sm btn-custom" target="_blank">Assignment 1</a>
+        
+                </div>
+              </div>
+            </article>
+          </div>
+
+          
+          <div class="col-12 col-lg-6">
+            <article class="card h-100 portfolio-card shadow-sm">
+              <img src="media/certificate.jpg" class="card-img-top" alt="รูปภาพของกิจกรรม">
+              <div class="card-body">
+                <h3 class="card-title h5 fw-bold">การแข่งขัน coding</h3>
+                <ul class="list-unstyled small text-muted mb-3">
+                  <li><strong>Type:</strong> Certificate</li>
+                  <li><strong>Date:</strong> 26-27 พ.ย. 2565</li>
+                  <li><strong>Role:</strong> Participant</li>
+                </ul>
+
+                <p><strong>Description:</strong>ได้เรียนรู้การเขียนโปรแกรมในระดับพื้นฐานกับโรงเรียนอื่นๆ ได้วัดความรู้ในตัวเองเกี่ยวกับการเขียนCoding</p>
+
+                <p class="mb-1"><strong>Skills:</strong></p>
+                <div class="d-flex flex-wrap gap-2 mb-3">
+                  <span class="badge tag">เขียนCoding</span>
+                  <span class="badge tag">การฝึกใช้Logic</span>
+                </div>
+
+                <h4 class="h6 fw-bold">Reflection</h4>
+                <dl class="reflection">
+                  <dt>What I did</dt>
+                  <dd>เขียนCodeให้ถูกต้อง ทำข้อสอบเกี่ยวกับคอมพิวเตอร์ การใช้logicให้ถูกต้อง</dd>
+                  <dt>What I learned</dt>
+                  <dd>ใช้Logicในการแก้ปัญหาให้เป็น และเร็วขึ้น</dd>
+                  <dt>Challenge</dt>
+                  <dd>ความยากในการเขียนCodeให้มีความถูกต้อง และมีประสิทธิภาพ</dd>
+                  <dt>Next step</dt>
+                  <dd>ฝึกเขียนCodeให้มากขึ้น ใช้Logicในการคิดให้มากขึ้น เพื่อให้การเขียนโปรแกรมมีประสิทธิภาพและให้เกิดประโยชน์สูงสุด</dd>
+                </dl>
+              </div>
+              <div class="card-footer bg-transparent border-0 pb-3">
+                <p class="small fw-bold mb-2">Evidence:</p>
+                <a href="media/certificate.jpg" class="btn btn-sm btn-custom" target="_blank">Certificate</a>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
   </main>
+
+  
+  <footer class="site-footer text-center py-4">
+    <p class="mb-0 small">&copy; 2026 ปดิวรัดา ฝ่ายฉิมพลี · CS100 Learning Portfolio</p>
+  </footer>
+
 </body>
 </html>
