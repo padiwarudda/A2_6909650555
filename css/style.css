@@ -1,0 +1,11 @@
+body {
+  background-color: black;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #f371bd;
+}
+
+header {
+  border-bottom: 3px solid #f371bd;
+}
